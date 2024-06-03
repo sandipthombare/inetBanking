@@ -5597,3 +5597,44 @@ Caused by: java.util.concurrent.TimeoutException
 2024-06-01 00:43:05.748 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
 2024-06-01 00:43:11.127 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
 2024-06-01 00:43:33.875 [main] INFO  com.inetBanking.testCases.BaseClass - validation started....
+2024-06-02 19:07:52.295 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 19:07:52.302 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 19:08:30.560 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 19:08:34.000 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 19:08:45.631 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 19:08:50.341 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 19:09:11.865 [main] INFO  com.inetBanking.testCases.BaseClass - validation started....
+2024-06-02 19:57:17.518 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 19:57:17.523 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 19:57:49.341 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 19:57:52.502 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 19:58:00.378 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 19:58:04.925 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 19:59:04.620 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 19:59:04.624 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 19:59:28.302 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 19:59:31.438 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 19:59:39.302 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 19:59:43.514 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 20:00:11.968 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 20:00:11.974 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 20:00:36.975 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 20:00:40.108 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 20:00:48.355 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 20:00:52.802 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 20:01:22.565 [main] INFO  com.inetBanking.testCases.BaseClass - validation started....
+2024-06-02 20:01:22.613 [main] INFO  com.inetBanking.testCases.BaseClass - test passed
+2024-06-02 20:07:14.305 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 20:07:14.311 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 20:07:40.969 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 20:07:44.113 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 20:07:52.278 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 20:07:56.618 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 20:08:41.984 [main] INFO  com.inetBanking.testCases.BaseClass - setup method started
+2024-06-02 20:08:41.990 [main] INFO  com.inetBanking.testCases.BaseClass - Initializing WebDriver for browser: chrome
+2024-06-02 20:09:10.622 [main] INFO  com.inetBanking.testCases.BaseClass - username provided
+2024-06-02 20:09:13.777 [main] INFO  com.inetBanking.testCases.BaseClass - password provided
+2024-06-02 20:09:22.013 [main] INFO  com.inetBanking.testCases.BaseClass - Login Successful
+2024-06-02 20:09:26.445 [main] INFO  com.inetBanking.testCases.BaseClass - providing customer details....
+2024-06-02 20:09:56.132 [main] INFO  com.inetBanking.testCases.BaseClass - validation started....
+2024-06-02 20:09:56.160 [main] INFO  com.inetBanking.testCases.BaseClass - test passed

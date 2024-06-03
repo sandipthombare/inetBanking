@@ -13,16 +13,11 @@ import com.inetBanking.utilities.XLUtils;
 
 public class TC_LoginDDT_002 extends BaseClass {
 	@Test(dataProvider = "LoginData")
-	public void loginDDT(String user,String pwd) throws InterruptedException
+	public void loginDDT(String user,String pwd) throws Exception
 	{
 		
-		Thread.sleep(2000);
-		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(user);
-		logger.info("user name provided");
-		lp.setPassword(pwd);
-		logger.info(" password provided");
-		lp.clickSubmit();
+		Login login = new Login();
+		login.doLogin();
 		
 		Thread.sleep(2000);
 		if(isAlertPresent()==true)
@@ -32,7 +27,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 			Assert.assertTrue(true);
 		}else {
 			
-			lp.clickLogout();
+			login.doLogout();
 			Thread.sleep(3000);
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();

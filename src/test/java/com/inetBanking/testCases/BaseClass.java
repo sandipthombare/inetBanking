@@ -52,6 +52,8 @@ public class BaseClass {
             	 Thread.sleep(5000);
             	 driver.get(baseURL);
             	 driver.manage().window().maximize();
+            	 Thread.sleep(5000);
+
                  
             } catch (Exception e) {
             	logger.error("Failed to initialize the WebDriver", e);

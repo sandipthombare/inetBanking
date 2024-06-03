@@ -63,6 +63,9 @@ public class AddCustomerPage {
 	@CacheLookup
 	WebElement btnSubmit;
 	
+	@FindBy(how = How.XPATH, using = "//*[@id=\"customer\"]/tbody/tr[4]/td[2]")
+	@CacheLookup
+	WebElement customerId;
 	
     public void clickAddNewCustomer() {
         lnkAddNewCustomer.click();
@@ -113,5 +116,9 @@ public class AddCustomerPage {
 
     public void clickSubmit() {
         btnSubmit.click();
+    }
+    public  String customerId() {
+    	return customerId.getText();
+    	
     }
 }

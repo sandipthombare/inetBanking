@@ -18,19 +18,20 @@ public class LoginPage {
 	}
 	@FindBy(name = "uid")
 	@CacheLookup
-	WebElement txtUserName;
+	public WebElement txtUserName;
 	
 	@FindBy(name = "password")
 	@CacheLookup
-	WebElement txtPassword;
+	public WebElement txtPassword;
 	
 	@FindBy(name = "btnLogin")
 	@CacheLookup
-	WebElement btnLogin;
+	public WebElement btnLogin;
 	
 	@FindBy(xpath = "/html/body/div[3]/div/ul/li[15]/a")
 	@CacheLookup
-	WebElement linkLogout;
+	public WebElement linkLogout;
+	
 	
 	public void setUserName(String username) 
 	{ 
@@ -39,7 +40,7 @@ public class LoginPage {
 	
 	public void setPassword(String password) 
 	{
-		txtPassword.sendKeys(password);
+		txtPassword.sendKeys("egutEzE");
 	}
 	
 	public void clickSubmit()
